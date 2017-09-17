@@ -1,0 +1,37 @@
+body {
+    background: url(../images/backGround.png) no-repeat 50% fixed;
+    background-size: cover
+}
+
+#signup input{
+    margin: 5px 0;
+    padding: 15px;
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin:60px -415px 0px 415px;
+    font-family: fantasy;
+
+}
+
+
+#signup button{
+    padding: 15px 8px;
+    width: 50%;
+    cursor: pointer;
+    border: 1px solid black;
+    overflow: visible;
+    display: inline-block;
+    color: #fff;
+    font: bold 1.4em arial, helvetica;
+    background-color: purple;
+
+    font-family: fantasy;
+
+    border-radius: 3px;
+    margin: 0 0 0 -155px;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+}
