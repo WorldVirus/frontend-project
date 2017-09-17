@@ -19,4 +19,4 @@ http.createServer((req,res)=>{
     }
 
 
-}).listen(8000,() => console.log("Hello fucking world !"));
+}).listen(process.env.PORT || '8080',() => console.log("Hello fucking world !"));
