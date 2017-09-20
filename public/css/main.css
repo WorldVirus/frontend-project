@@ -55,27 +55,8 @@ a.buttonSecond:active {
   background: white;
 }
 
-a.link{
-    display: inline-block;
-    color: white;
-    outline: none;
-    border: 2px solid;
-    border-radius: 100px;
-    transition: 0.2s;
-    background-size: cover;
-    font-family:fantasy;
-    margin: -125px 0 0 -125px;
-    position: absolute;
-    top: 100%;
-    left: 62%;
-    padding: 10px;
-    font-size: 150%;
 
-}
 
-a.link:hover {
-    background: green;
-}
 .textBlock {
   width: 400px;
   height: 400px;
@@ -94,6 +75,23 @@ a.link:hover {
 }
 
 
+a.buttonBack{
+    display: inline-block;
+    color: white;
+    outline: none;
+    border: 2px solid;
+    border-radius: 100px;
+    transition: 0.2s;
+    background-size: cover;
+    font-family:fantasy;
+    position: absolute;
+    padding: 30px;
+    background-image: url(../images/arrow.jpg);
+
+}
+a.buttonBack:hover {
+    background: green;
+}
 
 
 
