@@ -351,8 +351,8 @@ FakesAssemblies/
 *.GhostDoc.xml
 
 # Node.js Tools for Visual Studio
-.ntvs_analysis.dat
-node_modules/
+#.ntvs_analysis.dat
+#node_modules/
 
 # Typescript v1 declaration files
 typings/
