@@ -76,6 +76,7 @@ html {
         top:20%;
     }
     html {
+        background: url(../images/backGround.png) no-repeat 100% fixed;
         background-size: cover;
     }
 
@@ -86,7 +87,7 @@ html {
         top:12%;
     }
     html {
+        background: url(../images/backGround.png) no-repeat 100% fixed;
         background-size: cover;
-        background-attachment: fixed;
     }
 }
