@@ -9,13 +9,6 @@ const uuid = require('uuid/v4');
 const app = express();
 
 
-app.use(morgan('dev'));
-
-app.use(express.static('public'));
-app.use(express.static('dist'));
-app.use(fallback('index.html', { root: 'public' }));
-
-
 app.use(cors({
     origin: true,
     credentials: true,
