@@ -1,19 +1,14 @@
-
 'use strict';
 
 const express = require('express');
 const body = require('body-parser');
 const cors = require('cors');
 const cookie = require('cookie-parser');
-const app = express();
 const morgan = require('morgan');
-const fallback = require('express-history-api-fallback');
+const uuid = require('uuid/v4');
+const app = express();
 
-app.use(morgan('dev'));
 
-app.use(express.static('public'));
-app.use(express.static('dist'));
-app.use(fallback('index.html', { root: 'public' }));
 app.use(cors({
     origin: true,
     credentials: true,
@@ -91,6 +86,9 @@ app.delete('/signout', function (req, res) {
 });
 
 
+app.get('*', (req, res) => {
+    res.send('404');
+});
 
 const port = process.env.PORT || 8080;
 
