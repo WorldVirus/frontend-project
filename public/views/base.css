@@ -75,10 +75,18 @@ html {
         padding: 20px;
         top:20%;
     }
+    html {
+        background-size: cover;
+    }
+
 }
 
 @media screen and (min-width: 640px) and (max-width: 900px) and (min-height:1000px ) {
     .buttonBack {
         top:12%;
+    }
+    html {
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
