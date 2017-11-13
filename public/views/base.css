@@ -6,8 +6,8 @@ html {
 }
 
 @viewport {
-    width: 640px;
-    height: 440px;
+    width: auto;
+    height: auto;
     zoom: 2;
     user-zoom: fixed;
 }
