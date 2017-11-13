@@ -1,9 +1,10 @@
-@viewport {
+/*@viewport {
   width: 640px;
   height: 440px;
   zoom: 2;
   user-zoom: fixed;
 }
+*/
 
 
 .main {
@@ -164,7 +165,7 @@
 @media screen and (min-width: 640px) and (max-width: 900px) and (min-height:1000px ){
   .buttonChange-theme {
     top: 15%;
-    padding: 1px;
+   /* padding: 1px;*/
 
   }
   .buttonFirst{

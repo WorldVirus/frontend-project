@@ -75,10 +75,10 @@ html {
         padding: 20px;
         top:20%;
     }
-    html {
+   /* html {
         background: url(../images/backGround.png) no-repeat 100% fixed;
         background-size: cover;
-    }
+    }*/
 
 }
 
@@ -86,8 +86,8 @@ html {
     .buttonBack {
         top:12%;
     }
-    html {
-         background-size: 100% auto;
+    /*html {
 
-    }
+
+    }*/
 }
