@@ -70,10 +70,10 @@ html {
     left: 40%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .buttonBack {
         padding: 20px;
-        top:20%;
+        top:17%;
     }
 }
 
