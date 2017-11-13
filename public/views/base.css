@@ -76,11 +76,8 @@ html {
         padding: 20px;
         top:17%;
     }
-}
-
-@media screen and (max-width: 600px) {
     .html {
-       background-size:auto;
+        background-size:auto;
     }
 }
 
