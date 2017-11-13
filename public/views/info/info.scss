@@ -32,3 +32,13 @@
    left: 42%;
   }
 }
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+  .textBlock {
+    width: 50%;
+    height:50% ;
+    top: 145%;
+    left: 45%;
+  }
+
+}
