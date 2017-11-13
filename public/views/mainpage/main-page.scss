@@ -190,3 +190,21 @@
     font-size: 80px;
   }
 }
+
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+  .buttonFirst{
+    top:95%;
+  }
+  .buttonSecond{
+    top: 155%;
+  }
+
+  .buttonThird{
+    top: 185%;
+  }
+  .buttonFour{
+    top: 125%;
+  }
+
+}

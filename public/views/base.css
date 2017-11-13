@@ -86,3 +86,11 @@ html {
         top:12%;
     }
 }
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    html {
+        background-size:auto;
+    }
+}
+
+
