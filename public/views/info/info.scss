@@ -43,7 +43,7 @@
 
 }
 
-@media screen and (max-width: 900px) and (orientation: landscape) {
+@media screen and (min-width: 900px) and (orientation: landscape) {
   .textBlock {
     width: 35%;
     height: 55%;
