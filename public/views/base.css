@@ -1,6 +1,6 @@
 html {
     background: url(../images/backGround.png) no-repeat 50% fixed;
-    background-size: cover;
+    background-size: auto;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 }
