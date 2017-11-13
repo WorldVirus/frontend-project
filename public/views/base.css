@@ -4,14 +4,14 @@ html {
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 }
-/*
+
 @viewport {
-    width: auto;
-    height: auto;
+    width: 780px;
+    height: 1280px;
     zoom: 2;
     user-zoom: fixed;
 }
-*/
+
 .error {
     font-family: fantasy;
     outline: 0;
