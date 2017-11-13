@@ -208,3 +208,20 @@
   }
 
 }
+
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  .buttonFirst{
+    top:50%;
+  }
+  .buttonSecond{
+    top: 90%;
+  }
+
+  .buttonThird{
+    top: 110%;
+  }
+  .buttonFour{
+    top: 70%;
+  }
+
+}

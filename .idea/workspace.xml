@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a52f040-045a-4309-a1fa-542eac931129" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/info/info.scss" afterPath="$PROJECT_DIR$/public/views/info/info.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/base.css" afterPath="$PROJECT_DIR$/public/views/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/mainpage/main-page.scss" afterPath="$PROJECT_DIR$/public/views/mainpage/main-page.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,28 +63,28 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-page.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-page.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/views/mainpage/main-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="209" selection-end-column="1" />
+            <state relative-caret-position="371">
+              <caret line="226" column="1" lean-forward="true" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/info/info.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -165,9 +166,9 @@
         <option value="$PROJECT_DIR$/public/server.js" />
         <option value="$PROJECT_DIR$/public/modules/router.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/views/base.css" />
-        <option value="$PROJECT_DIR$/public/views/mainpage/main-page.scss" />
         <option value="$PROJECT_DIR$/public/views/info/info.scss" />
+        <option value="$PROJECT_DIR$/public/views/mainpage/main-page.scss" />
+        <option value="$PROJECT_DIR$/public/views/base.css" />
       </list>
     </option>
   </component>
@@ -342,12 +343,12 @@
       <workItem from="1505856697514" duration="2345000" />
       <workItem from="1505893732487" duration="11438000" />
       <workItem from="1510502275156" duration="10181000" />
-      <workItem from="1510568653979" duration="10817000" />
+      <workItem from="1510568653979" duration="12314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71278000" />
+    <option name="totallyTimeSpent" value="72775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +361,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="773" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2538071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -368,7 +368,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34070796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25073746" sideWeight="0.49746192" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25073746" sideWeight="0.49746192" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -559,26 +559,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/base.css">
+    <entry file="file://$PROJECT_DIR$/public/views/info/info.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/mainpage/main-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="209" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/info/info.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="371">
+          <caret line="226" column="1" lean-forward="true" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
           <folding />
         </state>
       </provider>
