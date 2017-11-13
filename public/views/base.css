@@ -70,15 +70,15 @@ html {
     left: 40%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .buttonBack {
         padding: 20px;
         top:20%;
     }
-   /* html {
+    html {
         background: url(../images/backGround.png) no-repeat 100% fixed;
         background-size: cover;
-    }*/
+    }
 
 }
 
@@ -86,8 +86,8 @@ html {
     .buttonBack {
         top:12%;
     }
-    /*html {
+    html {
+        /* background-size: 100% auto; */
 
-
-    }*/
+    }
 }
