@@ -80,7 +80,7 @@ html {
 
 @media screen and (max-width: 600px) {
     .html {
-       background: none;
+       background-size:auto;
     }
 }
 
