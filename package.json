@@ -7,6 +7,10 @@
     "compile-pug": "pug -c --extension 'pug.js' --name-after-file ./public/blocks/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "^6.11.2",
+    "npm": "^3.10.10"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
