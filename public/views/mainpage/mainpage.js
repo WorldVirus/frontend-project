@@ -53,6 +53,7 @@ export class MainPage extends Block {
         }
     creation() {
 
+
       let test = document.querySelector('div.wrapper');
         if (test.childNodes[0] !== undefined) {
             test.removeChild(test.childNodes[0])
