@@ -1,38 +1,49 @@
 import Block from '../baseview';
 import './info.scss';
-import Router from '../../modules/router';
 
 
-const infoBlock = "textBlock";
 const buttonBack = "buttonBack";
-
+const authors = [
+    {
+        name: "Kirill",
+        link:"https://github.com/KCherkasov"
+    },
+    {
+        name: "Veniamin",
+        link:"https://github.com/WorldVirus"
+    },
+    {
+        name: "Vlad",
+        link:"https://github.com/torrentino555"
+    },
+    {
+        name: "Artur",
+        link: "https://github.com/zonder129"
+    }
+];
 class Info extends Block {
     constructor() {
-        super('div', ['info'], {});
+        super('ul', ['info'], {});
         this.createChildren();
         return this;
     }
 
     createChildren() {
-            this.appendChildBlock("first",
-                new Block('div', [infoBlock]).setText("TextBlock"));
-
-            this.appendChildBlock("buttonBack",
-                new Block('a', [buttonBack]));
+        this.appendChildBlock('auth',new Block('h1',['authors_header']).setText('Creators'));
+        authors.forEach((i) => {
+            let value = new Block('li', ['authors']);
+          this.appendChildBlock(i.name,
+                value.setText(i.name))
+            value.setAttribute("href",i.link);
+        });
     }
 
     creation() {
-
-        let test = document.querySelector('div.wrapper');
-        if (test.childNodes[0] !== undefined) {
-            test.removeChild(test.childNodes[0])
+        const wrappe = document.querySelector('div.wrapper');
+        if (wrappe.childNodes[0] !== undefined) {
+            wrappe.removeChild(wrappe.childNodes[0])
         }
-        test.appendChild(this._element);
-
-        let navigator = document.querySelector('a.buttonBack');
-        navigator.addEventListener('click', () => {
-            new Router().go('/')
-        });
+        wrappe.appendChild(this._element);
     }
 
 }

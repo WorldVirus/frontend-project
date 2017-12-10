@@ -1,9 +1,26 @@
 html {
-    background: url(../images/backGround.png) no-repeat 50% fixed;
-    background-size: auto;
+  /*  background: url(../images/back_with_logo.png) no-repeat 50% fixed;*/
+    background-color: #281d1f;
+  /* background-size: auto;*/
+    /*background: url(../images/back_start.png) no-repeat 10% fixed;*/
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 }
+
+.wall{
+    margin-top: 13%;
+    margin-left: 31%;
+    /*width: 100px;*/
+    /* height: 100px;*/
+
+}
+.logo{
+    margin-left: -5px;
+    width:1440px;
+    height:240px;
+    position: absolute;
+}
+
 
 @viewport {
     width: 780px;
@@ -26,7 +43,7 @@ html {
     border: 2px solid red;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.buttonBack {
+/*.buttonBack {
     display: inline-block;
     color: white;
     outline: none;
@@ -45,7 +62,7 @@ html {
 }
 .buttonBack:hover {
     background: green;
-}
+}*/
 .logout {
     font-family: fantasy;
     text-transform: uppercase;
@@ -70,7 +87,7 @@ html {
     top: 45%;
     left: 40%;
 }
-
+/*
 @media screen and (max-width: 600px) {
     .buttonBack {
         padding: 20px;
@@ -97,6 +114,6 @@ html {
     html {
         background-size:auto;
     }
-}
+}*/
 
 

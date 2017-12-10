@@ -57,13 +57,13 @@ class Registration extends Block {
 
     creation() {
 
-        let test = document.querySelector('div.wrapper');
-        if (test.childNodes[0] !== undefined) {
-            test.removeChild(test.childNodes[0])
+        const wrappe = document.querySelector('div.wrapper');
+        if (wrappe.childNodes[0] !== undefined) {
+            wrappe.removeChild(wrappe.childNodes[0])
         }
-        test.appendChild(this._element);
+        wrappe.appendChild(this._element);
 
-        let navigator = document.querySelector('a.buttonBack');
+        const navigator = document.querySelector('a.buttonBack');
         navigator.addEventListener('click', () => {
             new Router().go('/')
         });

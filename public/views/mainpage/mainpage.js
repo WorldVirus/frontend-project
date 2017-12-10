@@ -6,26 +6,24 @@ export const buttons = [
     {
         name: 'First',
         text: 'New Game',
-        value:'/login'
+        value: '/login'
 
     },
     {
         name: 'Second',
-        text: 'Registration',
-        value:'/signup'
-
+        text: 'Singleplayer',
+        value:'/singleplayer'
 
     },
     {
         name: 'Third',
-        text: 'Information',
-        value:'/info'
-
+        text: 'Registration',
+            value: '/signup'
     },
     {
         name: 'Four',
-        text: 'Singleplayer',
-        value:'/singleplayer'
+        text: 'Information',
+        value:'/info'
 
     },
     {
@@ -45,35 +43,40 @@ export class MainPage extends Block {
     }
 
     createChildren() {
-            buttons.forEach((button) => {
-                this.appendChildBlock(button.name,
-                    new Block('a', [blockClass + button.name]).setText(button.text))
-            });
-
-        }
+        buttons.forEach((button) => {
+            this.appendChildBlock(button.name,
+                new Block('a', [blockClass + button.name]).setText(button.text))
+        });
+    }
     creation() {
 
 
-      let test = document.querySelector('div.wrapper');
-        if (test.childNodes[0] !== undefined) {
-            test.removeChild(test.childNodes[0])
+      const wrape = document.querySelector('div.wrapper');
+        if (wrape.childNodes[0] !== undefined) {
+            wrape.removeChild(wrape.childNodes[0])
         }
-        test.appendChild(this._element);
+    wrape.appendChild(this._element);
 
-        let linkFirst = document.querySelector('a.buttonFirst');
+        const linkFirst = document.querySelector('a.buttonFirst');
         linkFirst.setAttribute('value','/login');
-        let linkSecond = document.querySelector('a.buttonSecond');
-        linkSecond.setAttribute('value','/signup');
-        let linkThird = document.querySelector('a.buttonThird');
-        linkThird.setAttribute('value','/info');
-        let linkFour = document.querySelector('a.buttonFour');
-        linkFour.setAttribute('value','/singleplay');
+
+        const linkSecond = document.querySelector('a.buttonSecond');
+        linkSecond.setAttribute('value','/singleplay');
+
+        const linkThird= document.querySelector('a.buttonThird');
+        linkThird.setAttribute('value','/signup');
+        const linkFour = document.querySelector('a.buttonFour');
+        linkFour.setAttribute('value','/info');
+
 
         let changer = document.querySelector('a.buttonChange-theme');
-        changer.setAttribute('value','/');
+        changer.setAttribute('value','/game');
         changer.addEventListener('click', () => {
             ChangeTheme();
         });
+
+        const logo = document.querySelector('img.logo');
+        logo.setAttribute('src','../images/logo2.png');
     }
  }
 export default MainPage;
