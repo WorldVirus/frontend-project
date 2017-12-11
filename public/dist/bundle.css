@@ -105,35 +105,17 @@ html {
         left: 31%;
     }
 }
-/*
-@media screen and (max-width: 600px) {
-    .buttonBack {
-        padding: 20px;
-        top:17%;
-    }
-    html {
-        background-size:auto;
-    }
-}
 
-@media screen and (min-width: 640px) and (max-width: 900px) and (min-height:1000px ) {
-    .buttonBack {
-        top:12%;
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+    .logo {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .wall {
+        margin-top: 14%;
+        margin-left: 28%;
+        width: 49vw;
+        height: 154vh;
     }
 }
-
-@media screen and (max-width: 640px) and (orientation: landscape) {
-    html {
-        background-size:auto;
-    }
-}
-
-@media screen and (min-width: 960px) and (orientation: landscape) {
-    html {
-        background-size:auto;
-            width: 960px;
-           height: 220px;
-    }
-}*/
-
-

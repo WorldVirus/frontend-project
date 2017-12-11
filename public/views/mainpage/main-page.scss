@@ -207,3 +207,42 @@
     height: 9vh;
   }
 }
+
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape){
+  .buttonFirst {
+    width: 19vw;
+    height: 11vh;
+    line-height: 30px;
+    top: 75%;
+    left: 42%;
+    font-size: 115%;
+  }
+
+  .buttonSecond {
+    width: 19vw;
+    height: 11vh;
+    line-height: 30px;
+    top: 105%;
+    left: 42%;
+    font-size: 115%;
+  }
+
+  .buttonThird{
+    width: 19vw;
+    height: 11vh;
+    line-height: 30px;
+    top: 135%;
+    left: 42%;
+    font-size: 115%;
+  }
+
+  .buttonFour{
+    width: 19vw;
+    height: 11vh;
+    line-height: 30px;
+    top: 165%;
+    left: 42%;
+    font-size: 115%;
+  }
+}
