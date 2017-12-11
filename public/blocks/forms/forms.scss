@@ -66,15 +66,17 @@
     left: 31.5%;
   }
 }
-/*
-@media screen and (min-width: 640px) and (max-width: 900px) and (min-height:1000px ) {
-.login-form{
-    margin: 45% auto 100px;
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .field {
+    width: 51%;
+    height: 40px;
+    margin: 0 0 47px;
+    line-height: 1px;
+  }
+
+  .login-form {
+    top: 66%;
+    left: 37.5%;
   }
 }
-@media screen and (min-width: 640px) and (max-width: 900px) and (min-height:1000px ) {
-  .registration-form{
-    margin: 45% auto 100px;
-  }
-}
-*/
