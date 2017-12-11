@@ -213,3 +213,42 @@
           0 1px rgba(255,255,255,.08);
   color: rgb(128,207,214);
 }
+
+@media screen and (min-width: 960px) and (max-width: 1280px) and (orientation: landscape) {
+  .delete{
+    width: 12vw;
+    height: 7vh;
+    top: 91%;
+    left: 8%;
+  }
+  .person{
+    top: 20%;
+    left: 25%;
+  }
+  .enter {
+    top: 115%;
+    left: 43%;
+    font-size: 138%;
+  }
+  .choose_right{
+    top: 99%;
+  }
+  .choose_left{
+    top: 99%;
+  }
+  .back{
+    width: 11vw;
+    height: 7vh;
+    top: 114%;
+    right: 6%;
+  }
+  .left_bar{
+    top: 84%;
+  }
+
+  .new_character{
+    top: 112%;
+    left: 6%;
+  }
+  .
+}
