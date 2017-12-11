@@ -251,3 +251,58 @@
     left: 6%;
   }
 }
+
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .person{
+    width: 33vw;
+  }
+  .choose_left{
+    padding: 16px;
+    top: 88%;
+  }
+
+  .choose_right{
+    padding: 16px;
+    top: 88%;
+  }
+  .enter{
+    top: 119%;
+    left: 40%;
+    font-size: 129%;
+    line-height: 44px;
+    width: 19vw;
+    height: 11vh;
+  }
+  .back{
+    top: 119%;
+    left: 40%;
+    font-size: 129%;
+    line-height: 44px;
+    width: 19vw;
+    height: 11vh;
+  }
+  .new_character{
+    top: 119%;
+    left: 40%;
+    font-size: 106%;
+    line-height: 44px;
+    width: 19vw;
+    height: 11vh;
+  }
+  .left_bar{
+    font-size: 95%;
+    width: 20vw;
+    height: 50vh;
+    top: 110%;
+    left: 26%;
+  }
+  .delete{
+    width: 12vw;
+    height: 7vh;
+    line-height: 30px;
+    top: 89%;
+    left: 10%;
+    font-size: 90%;
+  }
+}

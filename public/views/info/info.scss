@@ -23,3 +23,10 @@
     top: 46%;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .info{
+    top: 80%;
+    font-size: 78%;
+  }
+}
