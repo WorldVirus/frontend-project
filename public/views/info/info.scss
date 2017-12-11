@@ -18,3 +18,8 @@
   color: #e9a818;
 }
 
+@media screen and (min-width: 960px) and (orientation: landscape) {
+  .info{
+    top: 46%;
+  }
+}
